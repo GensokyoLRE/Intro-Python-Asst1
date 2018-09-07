@@ -1,3 +1,9 @@
+"""
+Program is to import pi from math and calculate diameter, circumference, surface area, and volume. Spits error
+in response to non-numerical entry.
+"""
+
+
 from math import pi
 try:
     radius = float(input("Enter the radius of the circle: "))
